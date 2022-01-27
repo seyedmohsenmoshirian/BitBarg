@@ -1,27 +1,17 @@
 @font-face {
   font-family: "Iranian Sans";
   font-style: normal;
-  font-weight: 400;
-  src: local("Iranian Sans"),
-    url("https://fonts.cdnfonts.com/s/19710/irsans.woff") format("woff");
-}
-@font-face {
-  font-family: "Iranian Sans";
-  font-style: normal;
   font-weight: 800;
   src: local("Iranian Sans"),
     url("https://fonts.cdnfonts.com/s/19710/irsansb.woff") format("woff");
 }
 
 .bitbarg {
-  width: 272px;
-  position: relative;
-  left: 480px;
-  top: 200px;
+  width: 200px;
 }
 
 .callcenter {
-  width: 80px;
+  width: 50px;
   position: absolute;
   left: 10px;
   top: 17.5px;
@@ -35,9 +25,6 @@
   text-align: center;
   color: white;
   font-family: IRANSans, "sans-serif";
-  position: relative;
-  left: 270px;
-  top: 320px;
   border: none;
 }
 .kktwo {
@@ -50,16 +37,8 @@
   color: white;
   font-family: IRANSans, "sans-serif";
   position: relative;
-  left: 900px;
-  top: -60px;
   border: none;
-  @font-face {
-    font-family: "Iranian Sans";
-    font-style: normal;
-    font-weight: 800;
-    src: local("Iranian Sans"),
-      url("https://fonts.cdnfonts.com/s/19710/irsansb.woff") format("woff");
-  }
+  margin: 20px;
 }
 .kkone {
   background-color: #f2f2f2;
@@ -70,9 +49,6 @@
   text-align: center;
   color: black;
   font-family: IRANSans, "sans-serif";
-  position: relative;
-  left: -50px;
-  top: 320px;
   border: none;
 }
 .lll {
@@ -84,51 +60,47 @@
   background-color: white;
   border-color: black;
   border-width: 0.5px;
-  width: 200px;
+  width: 150px;
   height: 40px;
   border-radius: 5px;
   font-family: IRANSans, "sans-serif";
 }
 .poi {
-  position: absolute;
-  left: 350px;
-  top: 334px;
+  position: relative;
   background-color: white;
   width: 42px;
+  left: 10px;
+  top: -45px;
   font-size: 10px;
   text-align: center;
   font-weight: bold;
   font-family: IRANSans, "sans-serif";
 }
 .poione {
-  position: absolute;
-  left: 550px;
-  top: 334px;
+  position: relative;
   background-color: white;
-  width: 22px;
+  width: 20px;
+  left: 10px;
+  top: -45px;
   font-size: 10px;
   text-align: center;
   font-weight: bold;
   font-family: IRANSans, "sans-serif";
 }
 .poitwo {
-  position: absolute;
-  left: 750px;
-  top: 334px;
+  position: relative;
   background-color: white;
-  width: 24px;
+  width: 25px;
+  left: 10px;
+  top: -45px;
   font-size: 10px;
   text-align: center;
   font-weight: bold;
   font-family: IRANSans, "sans-serif";
 }
 .ghj {
-  position: absolute;
   color: #237ced;
-  left: 625px;
-  top: 530px;
   font-family: IRANSans, "sans-serif";
-
   font-weight: 900;
 }
 html,
@@ -177,20 +149,20 @@ body {
 }
 
 h1 {
-  top: 80%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   position: absolute;
   font-size: 20px;
   width: 250px;
-  margin: 0;
+  /* margin: 0; */
   font-family: IRANSans, "sans-serif";
   font-weight: 700;
 }
 
 @keyframes greenPulse {
   from {
-    -webkit-box-shadow: -10 0 5px rgb(69, 153, 202);
+    -webkit-box-shadow: -10 0 5px blue;
   }
   50% {
     -webkit-box-shadow: 0 0 50px blue;
@@ -202,23 +174,119 @@ h1 {
 
 div.cirrcle {
   margin: 100px auto;
-  width: 100px;
-  height: 100px;
+  width: 70px;
+  height: 70px;
 }
 .cirrcle {
   position: absolute;
-  left: 20px;
+  left: 10px;
   bottom: -90px;
 }
 .cirrcle {
   -moz-border-radius: 200px/200px;
   -webkit-border-radius: 200px 200px;
   border-radius: 200px/200px;
-  border: 1px solid blue;
+  border: 1px solid rgb(216, 216, 226);
   width: 200px;
   height: 200px;
   outline: none;
   -webkit-animation-name: greenPulse;
   -webkit-animation-duration: 2s;
   -webkit-animation-iteration-count: infinite;
+}
+.containerone {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: right;
+  text-align: center;
+  align-items: center;
+}
+.hhone {
+  width: 30px;
+  height: 30px;
+}
+.containertwo {
+  background-color: white;
+  width: 100%;
+  height: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.vvv {
+  background-color: white;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.drt {
+  background-color: white;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.plm {
+  background-color: white;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.bnmj {
+  background-color: white;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 15px;
+}
+.tyui {
+  background-color: white;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.xdrt {
+  background-color: white;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  /* position: absolute; */
+}
+.qwer {
+  margin-right: 5px;
 }
