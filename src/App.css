@@ -290,3 +290,252 @@ div.cirrcle {
 .qwer {
   margin-right: 5px;
 }
+@media only screen and (min-width: 766px) {
+  .bitbarg {
+    width: 272px;
+    height: 105px;
+  }
+
+  .callcenter {
+    width: 50px;
+    position: absolute;
+    left: 10px;
+    top: 17.5px;
+  }
+  .kk {
+    background-color: #237ced;
+    width: 155px;
+    height: 36px;
+    border-color: #237ced;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    font-family: IRANSans, "sans-serif";
+    border: none;
+  }
+  .kktwo {
+    background-color: #237ced;
+    width: 70px;
+    height: 36px;
+    border-color: #237ced;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    font-family: IRANSans, "sans-serif";
+    position: relative;
+    border: none;
+    margin: 20px;
+  }
+  .kkone {
+    background-color: #f2f2f2;
+    width: 155px;
+    height: 36px;
+    border-color: #f2f2f2;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+    font-family: IRANSans, "sans-serif";
+    border: none;
+  }
+
+  .kkr {
+    background-color: white;
+    border-color: black;
+    border-width: 0.5px;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    font-family: IRANSans, "sans-serif";
+  }
+  .poi {
+    position: relative;
+    background-color: white;
+    width: 42px;
+    left: 10px;
+    top: -45px;
+    font-size: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-family: IRANSans, "sans-serif";
+  }
+  .poione {
+    position: relative;
+    background-color: white;
+    width: 20px;
+    left: 10px;
+    top: -45px;
+    font-size: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-family: IRANSans, "sans-serif";
+  }
+  .poitwo {
+    position: relative;
+    background-color: white;
+    width: 25px;
+    left: 10px;
+    top: -45px;
+    font-size: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-family: IRANSans, "sans-serif";
+  }
+
+  html,
+  body {
+    background: linear-gradient(to bottom, white, white);
+  }
+
+  h1 {
+    text-align: center;
+  }
+  h1::before {
+    content: attr(data-heading);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(
+      45deg,
+      rgba(231, 24, 24, 0) 20%,
+      rgba(255, 255, 255, 0.8) 50%,
+      rgba(255, 255, 255, 0) 55%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-animation: shine 1s infinite;
+    animation: shine 1s infinite;
+    background-size: 200%;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2),
+      -2px 2px 10px rgba(0, 0, 0, 0.2), -2px -2px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  @keyframes shine {
+    0% {
+      background-position: -100%;
+    }
+    100% {
+      background-position: 100%;
+    }
+  }
+  /* Not needed for demo */
+
+  html,
+  body {
+    height: 100%;
+  }
+
+  h1 {
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-size: 20px;
+    width: 250px;
+    /* margin: 0; */
+    font-family: IRANSans, "sans-serif";
+    font-weight: 700;
+  }
+
+  @keyframes greenPulse {
+    from {
+      -webkit-box-shadow: -10 0 5px blue;
+    }
+    50% {
+      -webkit-box-shadow: 0 0 50px blue;
+    }
+    to {
+      -webkit-box-shadow: 0 0 30px blue;
+    }
+  }
+
+  div.cirrcle {
+    margin: 100px auto;
+    width: 70px;
+    height: 70px;
+  }
+  .cirrcle {
+    position: absolute;
+    left: 10px;
+    bottom: -90px;
+  }
+  .cirrcle {
+    -moz-border-radius: 200px/200px;
+    -webkit-border-radius: 200px 200px;
+    border-radius: 200px/200px;
+    border: 1px solid rgb(216, 216, 226);
+    width: 200px;
+    height: 200px;
+    outline: none;
+    -webkit-animation-name: greenPulse;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+  }
+  .containerone {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: right;
+    text-align: center;
+    align-items: center;
+  }
+  .hhone {
+    width: 30px;
+    height: 30px;
+  }
+  .containertwo {
+    background-color: white;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+  .vvv {
+    background-color: white;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+  .xdrt {
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: relative;
+  }
+  .tyui {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  .ghj {
+    color: #237ced;
+    font-family: IRANSans, "sans-serif";
+    font-weight: 900;
+  }
+}
