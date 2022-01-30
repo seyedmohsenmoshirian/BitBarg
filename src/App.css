@@ -1,11 +1,3 @@
-@font-face {
-  font-family: "Iranian Sans";
-  font-style: normal;
-  font-weight: 800;
-  src: local("Iranian Sans"),
-    url("https://fonts.cdnfonts.com/s/19710/irsansb.woff") format("woff");
-}
-
 .bitbarg {
   width: 200px;
 }
@@ -24,7 +16,7 @@
   border-radius: 5px;
   text-align: center;
   color: white;
-  font-family: IRANSans, "sans-serif";
+  font-family: "aaa";
   border: none;
 }
 .kktwo {
@@ -35,7 +27,7 @@
   border-radius: 5px;
   text-align: center;
   color: white;
-  font-family: IRANSans, "sans-serif";
+  font-family: "aaa";
   position: relative;
   border: none;
   margin: 20px;
@@ -48,7 +40,7 @@
   border-radius: 5px;
   text-align: center;
   color: black;
-  font-family: IRANSans, "sans-serif";
+  font-family: "aaa";
   border: none;
 }
 .lll {
@@ -63,45 +55,46 @@
   width: 150px;
   height: 40px;
   border-radius: 5px;
-  font-family: IRANSans, "sans-serif";
+  font-family: "aaa";
 }
 .poi {
   position: relative;
   background-color: white;
   width: 42px;
   left: 10px;
-  top: -45px;
+  top: -49px;
   font-size: 10px;
   text-align: center;
   font-weight: bold;
-  font-family: IRANSans, "sans-serif";
+  font-family: "aaa";
 }
 .poione {
   position: relative;
   background-color: white;
   width: 20px;
   left: 10px;
-  top: -45px;
+  top: -49px;
   font-size: 10px;
   text-align: center;
   font-weight: bold;
-  font-family: IRANSans, "sans-serif";
+  font-family: "aaa";
 }
 .poitwo {
   position: relative;
   background-color: white;
   width: 25px;
   left: 10px;
-  top: -45px;
+  top: -49px;
   font-size: 10px;
   text-align: center;
   font-weight: bold;
-  font-family: IRANSans, "sans-serif";
+  font-family: "aaa";
 }
 .ghj {
   color: #237ced;
-  font-family: IRANSans, "sans-serif";
-  font-weight: 900;
+  font-weight: 500;
+  font-family: "aaa";
+  margin-top: -45px;
 }
 html,
 body {
@@ -153,11 +146,11 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%);
   position: absolute;
-  font-size: 20px;
+  font-size: 16px;
   width: 250px;
   /* margin: 0; */
-  font-family: IRANSans, "sans-serif";
-  font-weight: 700;
+  font-family: "aaa";
+  font-weight: 200;
 }
 
 @keyframes greenPulse {
@@ -310,7 +303,7 @@ div.cirrcle {
     border-radius: 5px;
     text-align: center;
     color: white;
-    font-family: IRANSans, "sans-serif";
+    font-family: "aaa";
     border: none;
   }
   .kktwo {
@@ -321,7 +314,7 @@ div.cirrcle {
     border-radius: 5px;
     text-align: center;
     color: white;
-    font-family: IRANSans, "sans-serif";
+    font-family: "aaa";
     position: relative;
     border: none;
     margin: 20px;
@@ -334,7 +327,7 @@ div.cirrcle {
     border-radius: 5px;
     text-align: center;
     color: black;
-    font-family: IRANSans, "sans-serif";
+    font-family: "aaa";
     border: none;
   }
 
@@ -345,40 +338,40 @@ div.cirrcle {
     width: 200px;
     height: 40px;
     border-radius: 5px;
-    font-family: IRANSans, "sans-serif";
+    font-family: "aaa";
   }
   .poi {
     position: relative;
     background-color: white;
     width: 42px;
     left: 10px;
-    top: -45px;
+    top: -49px;
     font-size: 10px;
     text-align: center;
     font-weight: bold;
-    font-family: IRANSans, "sans-serif";
+    font-family: "aaa";
   }
   .poione {
     position: relative;
     background-color: white;
     width: 20px;
     left: 10px;
-    top: -45px;
+    top: -49px;
     font-size: 10px;
     text-align: center;
     font-weight: bold;
-    font-family: IRANSans, "sans-serif";
+    font-family: "aaa";
   }
   .poitwo {
     position: relative;
     background-color: white;
     width: 25px;
     left: 10px;
-    top: -45px;
+    top: -49px;
     font-size: 10px;
     text-align: center;
     font-weight: bold;
-    font-family: IRANSans, "sans-serif";
+    font-family: "aaa";
   }
 
   html,
@@ -434,8 +427,8 @@ div.cirrcle {
     font-size: 20px;
     width: 250px;
     /* margin: 0; */
-    font-family: IRANSans, "sans-serif";
-    font-weight: 700;
+    font-family: "aaa";
+    font-weight: 200;
   }
 
   @keyframes greenPulse {
@@ -535,7 +528,8 @@ div.cirrcle {
   }
   .ghj {
     color: #237ced;
-    font-family: IRANSans, "sans-serif";
-    font-weight: 900;
+    font-family: "aaa";
+    font-weight: 400;
+    margin-top: 25px;
   }
 }
