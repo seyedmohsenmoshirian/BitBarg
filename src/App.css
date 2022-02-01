@@ -5,8 +5,8 @@
 .callcenter {
   width: 50px;
   position: absolute;
-  left: 10px;
-  top: 17.5px;
+  left: 5px;
+  top: 7px;
 }
 .kk {
   background-color: #237ced;
@@ -39,7 +39,7 @@
   border-color: #f2f2f2;
   border-radius: 5px;
   text-align: center;
-  color: black;
+  color: #5f6368;
   font-family: "aaa";
   border: none;
 }
@@ -50,12 +50,13 @@
 }
 .kkr {
   background-color: white;
-  border-color: black;
   border-width: 0.5px;
   width: 150px;
   height: 40px;
   border-radius: 5px;
   font-family: "aaa";
+  border-width: 0.22%;
+  border: 1px solid #aaa;
 }
 .poi {
   position: relative;
@@ -64,8 +65,8 @@
   left: 10px;
   top: -49px;
   font-size: 10px;
+  font-weight: 100;
   text-align: center;
-  font-weight: bold;
   font-family: "aaa";
 }
 .poione {
@@ -76,7 +77,6 @@
   top: -49px;
   font-size: 10px;
   text-align: center;
-  font-weight: bold;
   font-family: "aaa";
 }
 .poitwo {
@@ -87,7 +87,6 @@
   top: -49px;
   font-size: 10px;
   text-align: center;
-  font-weight: bold;
   font-family: "aaa";
 }
 .ghj {
@@ -95,6 +94,7 @@
   font-weight: 500;
   font-family: "aaa";
   margin-top: -45px;
+  font-weight: bold;
 }
 html,
 body {
@@ -155,20 +155,18 @@ h1 {
 
 @keyframes greenPulse {
   from {
-    -webkit-box-shadow: -10 0 5px blue;
   }
   50% {
-    -webkit-box-shadow: 0 0 50px blue;
   }
   to {
-    -webkit-box-shadow: 0 0 30px blue;
+    -webkit-box-shadow: 0 0 30px #237ced;
   }
 }
 
 div.cirrcle {
   margin: 100px auto;
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
 }
 .cirrcle {
   position: absolute;
@@ -292,8 +290,8 @@ div.cirrcle {
   .callcenter {
     width: 50px;
     position: absolute;
-    left: 10px;
-    top: 17.5px;
+    left: 5px;
+    top: 7px;
   }
   .kk {
     background-color: #237ced;
@@ -433,20 +431,18 @@ div.cirrcle {
 
   @keyframes greenPulse {
     from {
-      -webkit-box-shadow: -10 0 5px blue;
     }
     50% {
-      -webkit-box-shadow: 0 0 50px blue;
     }
     to {
-      -webkit-box-shadow: 0 0 30px blue;
+      -webkit-box-shadow: 0 0 30px #237ced;
     }
   }
 
   div.cirrcle {
     margin: 100px auto;
-    width: 70px;
-    height: 70px;
+    width: 60;
+    height: 60;
   }
   .cirrcle {
     position: absolute;
